@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg {
+            background-color: rgba(245, 245, 245, 0.984);
+            width: 100dvw;
+            height: 100dvh;
+        }
+
+        .top-sec {
+            background-color: white;
+            width: 100dvw;
+            height: 10dvh;
+        }
+
+        .space-left {
+            /* background-color: black; */
+            width: 10dvw;
+            height: 10dvh;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .first {
+            /* background-color: aqua; */
+            width: 30dvw;
+            height: 10dvh;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            position: fixed;
+            left: 10dvw;
+            top: 0;
+        }
+
+        .second {
+            /* background-color: orange; */
+            width: 35dvw;
+            height: 10dvh;
+            position: fixed;
+            top: 0;
+            left: 40dvw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .link {
+            background-color: black;
+            width: 40px;
+            height: 40px;
+
+        }
+
+        .link img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .search-bar {
+            background-color: white;
+            width: 18dvw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            margin-left: 10px;
+            border: 2px solid grey;
+        }
+
+        .search {
+            /* background-color: red; */
+            width: 15dvw;
+            padding: 5px;
+        }
+
+        .search input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 20px;
+        }
+
+        .group {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .third {
+            /* background-color: red; */
+            width: 15dvw;
+            height: 10dvh;
+            position: fixed;
+            top: 0;
+            left: 75dvw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .left {
+            background-color: aqua;
+            width: 30dvw;
+            height: 90dvh;
+            position: fixed;
+            top: 10dvh;
+            left: 0;
+        }
+
+        .first-profile-box {
+            background-color: white;
+            width: 45dvw;
+            height: 20dvh;
+            position: absolute;
+            left: 30dvw;
+
+        }
+
+        .one {
+            background-color: grey;
+            width: 45dvw;
+            height: 14dvh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-icon {
+            background-color: black;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+        }
+
+        .search-post {
+            width: 40dvw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 25px;
+            border: 2px solid grey;
+        }
+
+        .search-in-post {
+            width: 38dvw;
+        }
+
+        .search-in-post input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 15px 10px;
+            font-size: 15px;
+            border-radius: 25px;
+        }
+        .two{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .two-group {
+            display: flex;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="top-sec">
+            <div class="space-left"></div>
+            <div class="first">
+                <div class="link">
+                    <img src="link.png" alt="">
+                </div>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <form action="" class="search">
+                        <input type="text" name="" id="" placeholder="search">
+                    </form>
+                </div>
+            </div>
+            <div class="second">
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="head">
+                        <p>Home</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="head">
+                        <p>My Network</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <div class="head">
+                        <p>Jobs</p>
+                    </div>
+                </div>
+
+
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-comment-dots"></i>
+                    </div>
+                    <div class="head">
+                        <p>Messaging</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                    <div class="head">
+                        <p>Notifications</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="head">
+                        <p>Me</p>
+                    </div>
+                </div>
+            </div>
+            <div class="third">
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="head">
+                        <p>For Buisness</p>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="icon">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="head">
+                        <p>Try Premium for 0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left"></div>
+        <div class="mid">
+            <div class="first-profile-box">
+                <div class="one">
+                    <div class="profile-icon"></div>
+                    <div class="search-post">
+                        <form action="" class="search-in-post">
+                            <input type="text" name="" id="" placeholder="Start a post">
+                        </form>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="two-group">
+                        <div class="two-icon">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                        <div class="two-head">
+                            <p>Media</p>
+                        </div>
+                    </div>
+
+                    <div class="two-group">
+                        <div class="two-icon">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                        <div class="two-head">
+                            <p>Media</p>
+                        </div>
+                    </div>
+
+                    <div class="two-group">
+                        <div class="two-icon">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                        <div class="two-head">
+                            <p>Media</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
